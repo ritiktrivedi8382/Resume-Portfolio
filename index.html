@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritik Kumar </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Ritik Kumar</a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Expertise</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+            <li><div class="bx bx-moon"></div></li>
+        </ul>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-dribbble'></i></a>
+            <a href="#"><i class='bx bxl-behance'></i></a>
+        </div>
+
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1 class="heading-name">Ritik Kumar</h1>
+            <span>Frontend Developer</span>
+            <p class="para-home">Digital design is like painting, except the paint never dries !</p>
+            <a href="#contact" class="contact-me">Contact Me</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img.jpg" alt="img" srcset="">
+        </div>
+    </section>
+
+
+    <!-- About Me -->
+
+    <section class="aboutme">
+        <h1 class="aboutme-heading">About Me</h1>
+        <span>Introduction</span>
+
+        <div class="aboutme-section">
+            <div class="img-section">
+            </div>
+
+            <div class="aboutme-text">
+                <centre>
+                <p >I'm pursuing Graduation from SGTB Khalsa College (DU) with my course as BSc Computer Science (hons).
+                  I'm interested in frontend development.I'm also fitness enthusiast.
+                </centre>
+                </p>
+                <div class="icons-div">
+                    <span><i class='bx bxs-user'></i>Ritik Kumar</span>
+                    <span><i class='bx bxs-phone' ></i>+91 7248584758</span>
+                    <span><i class='bx bxs-envelope'></i>ritiktrivedi8382@gmail.com</span>
+                </div>
+                <a href="#contact" class="contact-me">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+        <h1 class="skill-heading">Skills</h1>
+        <span class="skill-subheading">My Skills</span>
+
+        <div class="skills-section">
+            <div class="skill-bar">
+                <div class="bars">
+                    <div class="bars-box">
+                        <h3>HTML</h3>
+                        <span>94%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar html-bar"></div>
+                    </div>
+
+                    <div class="bars-box">
+                        <h3>CSS</h3>
+                        <span>94%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar css-bar"></div>
+                    </div>
+
+                    <div class="bars-box">
+                        <h3>Javascript</h3>
+                        <span>94%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar js-bar"></div>
+                    </div>
+
+                    <div class="bars-box">
+                        <h3>React</h3>
+                        <span>94%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar react-bar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-img">
+                <img src="https://raw.githubusercontent.com/Anurag5086/images/main/123.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section class="projects">
+        <h1 class="project-heading">Projects</h1>
+        <!-- <span class="project-subheading">My Projects</span> -->
+
+        <img src="https://github.com/Anurag5086/images/blob/main/blog-1.jpg?raw=true" alt="" height="300" width="400">
+        <img src="https://github.com/Anurag5086/images/blob/main/blog-2.jpg?raw=true" alt="" height="300" width="400">
+        <img src="https://github.com/Anurag5086/images/blob/main/blog-3.jpg?raw=true" alt="" height="300" width="400">
+        <img src="https://github.com/Anurag5086/images/blob/main/blog-4.jpg?raw=true" alt="" height="300" width="400">
+        <img src="https://github.com/Anurag5086/images/blob/main/blog-5.jpg?raw=true" alt="" height="300" width="400">
+        <img src="https://github.com/Anurag5086/images/blob/main/blog-6.jpg?raw=true" alt="" height="300" width="400">
+    </section>
+
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+        <h1 class="contact-me-heading">Contact Me</h1>
+
+        <form action="mailto:yourmailid@gmail.com" class="form">
+            <input type="text" name="name" id="name" placeholder="Your Name">
+            <input type="text" name="email" id="email" placeholder="Your Email">
+            <textarea name="message" id="message" cols="20" rows="10" placeholder="Enter your message....."></textarea>
+            <button class="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
+ 256  
+styles.css
+@@ -0,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 150px;
+    background-color: #0f0c27;
+    color: white;
+    border-bottom: solid 0.2px grey;
+
+}
+
+.navbar {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+    padding-top: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.8rem;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+ul a {
+    font-size: 1rem;
+}
+
+.home{
+    background-color: #0f0c27;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    height: 100px;
+}
+
+section {
+    padding: 100px 10%;
+}
+
+.social a i {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.home-text {
+    color: white;
+    margin-top: 50px;
+}
+
+.contact-me {
+    color: white;
+    text-decoration: none;
+    background-color: #033a80;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.home-img img {
+    height: 400px;
+    width: 500px;
+}
+
+.heading-name {
+    font-size: 2.5rem;
+}
+
+.para-home {
+    margin: 20px 0px;
+    font-size: 1.2rem;
+}
+.aboutme {
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+}
+
+.aboutme-section {
+    display: flex;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.my-img {
+    border-radius: 20px;
+}
+
+.image-section {
+    margin-left: 50px;
+}
+
+.aboutme-text {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.icons-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutme-heading {
+    font-size: 2.5rem;
+}
+
+.skills {
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+    padding: 10%;
+}
+
+.bars-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    /* width: 100%; */
+}
+
+.skills-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.light-bar {
+    width: 100%;
+    background: hsla(260, 100%, 44%, 0.4);
+    height: 0.5rem;
+    position: absolute;
+    top: 10;
+    bottom: 0;
+}
+
+.skill-bar {
+    width: 40%;
+}
+
+.percent-bar {
+    position: absolute;
+    top: 10;
+    bottom: 0;
+    background-color: #033a80;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.html-bar {
+    width: 94%;
+}
+
+.css-bar {
+    width: 90%;
+}
+
+.js-bar {
+    width: 95%;
+}
+
+.react-bar {
+    width: 90%;
+}
+
+.skill-heading {
+    font-size: 2.5rem;
+}
+
+.projects {
+    background-color: #0f0c27;
+    color: white;
+    text-align: center;
+}
+
+.project-heading {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.projects img {
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.contact-form {
+    background-color: #0f0c27;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form input, textarea {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #150b3a;
+    text-decoration: none;
+    border: 0;
+
+}
+
+.form input, textarea {
+    padding: 10px;
+    color: white;
+}
+
+.contact-me-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.submit {
+    margin-top: 40px;
+    width: 20%;
+    background-color: #033a80;
+    color: white;
+    padding: 10px 15px;
+    margin: 0px auto;
+    cursor: pointer;
+}
